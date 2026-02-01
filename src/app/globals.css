@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fefefe;
+  --foreground: #333333;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+
+
+.input-dark {
+  @apply bg-slate-800 border border-slate-700 rounded-lg p-2 text-sm outline-none focus:border-cyan-400;
+}
+
+.btn-primary {
+  @apply bg-cyan-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-cyan-400;
+}
